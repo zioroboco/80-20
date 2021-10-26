@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false
+  },
+  "type": "module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

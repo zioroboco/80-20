@@ -1,0 +1,6 @@
+*.code-workspace
+build/
+dist/
+node_modules/
+tsconfig.tsbuildinfo
+yarn-*.log
