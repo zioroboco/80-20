@@ -1,14 +1,23 @@
 {
-  "private": true,
+  "name": "80-20",
+  "version": "0.0.0",
   "prettier": {
     "arrowParens": "avoid",
     "semi": false
   },
   "type": "module",
-  "main": "./lib/index.js",
+  "exports": {
+    "./*": "./lib/*.js"
+  },
+  "bin": "./bin/run.js",
   "scripts": {
-    "start": "node ."
+    "80-20": "./bin/run.js"
   },
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "clipanion": "^3.2.0-rc.3",
+    "execa": "^5.1.1",
+    "fast-glob": "^3.2.7",
+    "typanion": "^3.7.1"
+  }
 }
