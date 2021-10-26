@@ -11,7 +11,8 @@
   },
   "bin": "./bin/run.js",
   "scripts": {
-    "80-20": "./bin/run.js"
+    "80-20": "./bin/run.js",
+    "setup": "npm link"
   },
   "devDependencies": {},
   "dependencies": {
